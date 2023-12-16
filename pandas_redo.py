@@ -10,6 +10,7 @@ data = pd.DataFrame(player)
 
 data["bmi"] = (data["weight"]/2.205)/((data["height"]/39.37)**2)
 
+print("Here are all the basketball players!")
 print(data)
 
 
